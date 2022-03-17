@@ -67,3 +67,12 @@ else:
  
 print("The largest number is",largest)
 
+
+#Problem Statement 6
+# Check whether a person is eligible to vote or not and print the result. [ use if – else]
+a_person = int(input("Enter your age: "))
+if a_person  >= 18:
+    print("The person is eligible to vote",a_person )
+else:
+    print("The person is not eligible to vote",a_person)
+
