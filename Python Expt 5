@@ -1,0 +1,52 @@
+#Practical 5
+#Problem Statement 1
+#Check and print a message if a given number is even using only if command. Also try with input as an odd no.
+a_number = 95
+if a_number % 2 == 0:
+    print('The given number {} is even.'.format(a_number))
+    
+    
+#Problem Statement 2 
+#Check and print a message if a given number is even using only if -else command. Also try with input as an odd no.
+a_number = 95
+if a_number % 2 == 0:
+    print('The given number {} is even.'.format(a_number))
+else:
+    print('The given number {} is odd.'.format(a_number))
+    
+    
+#Problem Statement 3
+#Checks if the number is positive or negative and displays an appropriate message using if- else command.
+a_number = 95
+if a_number >= 0:
+    print('The given number {} is positive.'.format(a_number))
+else:
+    print('The given number {} is negative.'.format(a_number))
+    
+    
+#Problem Statement 4
+#Check  if the number is positive or negative or zero and display an appropriate message using if...elif...else command.
+a_number = 95
+if a_number == 0:
+    print('The given number {} is zero.'.format(a_number))
+elif a_number >= 0:
+    print('The given number {} is positive.'.format(a_number))
+else:
+     print('The given number {} is negative.'.format(a_number))
+     
+     
+     
+     
+ #Problem Statement 5
+# 2) Find the largest number among the three numbers taking input from  the user. [ use if- elif – else] 
+a_number = 95
+b_number = 76
+c_number = 65
+if (a_number > b_number) and (a_number > c_number):
+   largest  = a_number
+elif (b_number > a_number) and (a_number > c_number):
+   largest = b_number
+else:
+   largest = c_number
+ 
+print("The largest number is",largest)
