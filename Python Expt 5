@@ -76,3 +76,31 @@ if a_person  >= 18:
 else:
     print("The person is not eligible to vote",a_person)
 
+#Probelm statement 7
+#You have Passed
+marks = int(input("Enter your marks: "))
+if marks >= 85 and marks >= 100:
+    print("You have secured A grade")
+elif marks >= 60 and marks >= 85:
+    print("You have secured B+ grade")
+elif marks >= 40 and marks >= 60:
+    print("You have secured B grade")
+elif marks >= 30 and marks >= 40:
+    print("You have secured C grade")
+else :
+    print("You have failed")
+    
+ #Probelm statement 7
+#You have Failed
+marks = int(input("Enter your marks: "))
+if marks >= 85 and marks >= 100:
+    print("You have secured A grade")
+elif marks >= 60 and marks >= 85:
+    print("You have secured B+ grade")
+elif marks >= 40 and marks >= 60:
+    print("You have secured B grade")
+elif marks >= 30 and marks >= 40:
+    print("You have secured C grade")
+else :
+    print("You have failed")
+    
