@@ -51,3 +51,19 @@ else:
  
 print("The largest number is",largest)
 
+
+
+#Problem Statement 5
+# 2) Find the largest number among the three numbers taking input from  the user. [ use if- elif – else] 
+a_number = float(input("Enter 1st number: "))
+b_number = float(input("Enter 2nd number: "))
+c_number = float(input("Enter 3rd number: "))
+if (a_number > b_number) and (a_number > c_number):
+   largest  = a_number
+elif (b_number > a_number) and (a_number > c_number):
+   largest = b_number
+else:
+   largest = c_number
+ 
+print("The largest number is",largest)
+
