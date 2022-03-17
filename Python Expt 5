@@ -38,7 +38,7 @@ else:
      
      
  #Problem Statement 5
-# 2) Find the largest number among the three numbers taking input from  the user. [ use if- elif – else] 
+ # 1) Find the largest number among the three input numbers
 a_number = 95
 b_number = 76
 c_number = 65
@@ -50,3 +50,4 @@ else:
    largest = c_number
  
 print("The largest number is",largest)
+
