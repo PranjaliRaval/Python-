@@ -37,6 +37,47 @@ else:
      
      
      
+     
+    #Problem Statement 8
+
+#Check if an input number is two digit or three digit or four digit. In case of single digit
+#for greater than 4 four digit display "number is 9 or 99997. [ use if..elif..else]
+
+num = 11
+
+if 9 < num < 99:
+
+    print("Two digit number")
+
+elif 99 < num < 999:
+
+     print("Three digit number")
+
+elif 999 < num  < 9999:
+
+    print("Four digit number")
+
+else:
+
+    print("number is <= 9 or >= 9999")
+    
+    
+    
+    #Problem Statement 9
+#Check if an input number is divisible by 2 or 3 using nested if...elif...else 
+#(print hint: Divisible by 3 and 2, divisible by 2 not divisible by 3, divisible by 3 not divisible by 2, 
+#not Divisible by 2 not divisible by 3**.
+a_number = 12
+if a_number % 2 == 0:
+    print('{} is divisible by 2'.format(a_number))
+elif a_number % 3 == 0:
+    print('{} is divisible by 3'.format(a_number))
+else:
+     print('{} is not divisible by 2, 3' .format(a_number))
+     
+     
+     
+     
  #Problem Statement 5
  # 1) Find the largest number among the three input numbers
 a_number = 95
