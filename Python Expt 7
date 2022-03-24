@@ -1,0 +1,84 @@
+# Module 2 Functions In Python
+# Problem Statement 1
+# 1] Find absolute value of an integer and float.
+int = -90
+float = -19.89
+print ("The absolute value of -90 is: ",abs(int))
+print ("The absolute value of -19.89 is: ",abs(float))
+
+
+
+# Problem Statement 2
+#Find the true or false value of iterables(list,tuple, dictionary) using all function.
+
+# All values are true
+I = [2,4,6,8,10]
+print(all(I))
+
+# ALL values are False
+I = [0,False]
+print(all(I))
+
+# One value is false
+I = [2,4,6,8,0]
+print(all(I))
+
+# One value is true
+I = [0,4,False]
+print(all(I))
+
+# Iterable is empty
+l = []
+print(all(I))
+
+
+# Problem Statement 3
+# Return a string containing a printable representation of an object using  ascii() method.
+normalText = 'My Name Is Pranjali'
+print(ascii(normalText))
+otherText = 'My Name Is ṔŔǍŅǰÃĻÏ'
+print(ascii(otherText))
+print('My Name is Pranjali')
+
+
+
+# Probelem Statment 4
+# Find the  binary equivalent string of a given integer
+a_number = 2 
+print('The binary equivalent of 2 is:', bin(a_number))
+
+
+# Problem Statement 5
+# Find the boolean value of a specified object.
+test = []
+print(test,'is',bool(test))
+test = [0]
+print(test,'is',bool(test))
+test = 0.0
+print(test,'is',bool(test))
+test = None
+print(test,'is',bool(test))
+test = True
+print(test,'is',bool(test))
+test = 'This is Python Lab'
+print(test,'is',bool(test))
+
+
+
+# Problem Statement 6
+# Takes source code as input and returns a code object which can later be executed by 
+#exec () function using the python compile () function.
+codeInString = a = 6
+b = 5
+print('sum =',sum)
+codeObejct = compile('codeInString', 'sumstring', 'exec')
+exec(codeObejct)
+
+
+# Problem Statement 7
+# Create  a dictionary in Python using the  dict() constructor.
+numbers = dict(x=65, y=50, z=49)
+print('numbers = ',numbers)
+print(type(numbers))
+
+
