@@ -1,0 +1,35 @@
+# Problem Statement 1
+# Write a Program to print 1 to 10 using while loop
+i = 1
+while(i<=10):
+    print(i)
+    i += 1
+
+
+
+# Problem Statement 2
+# Write a Program to add natural numbers using while loop
+num = int(input("Enter a number: "))  
+  
+if num < 0:  
+   print("Enter a positive number")  
+else:  
+   sum = 0  
+# Using while loop to iterate un till zero  
+while(num > 0):
+    sum += num
+    num -= 1
+    print("The sum is",sum)  
+
+
+
+# Problem Statement 3
+# Write a program to  print table of given numbers using while loop
+a=int(input("enter table number"))
+b=int(input("enter the number to which table is to printed"))
+i=1
+while i<=b:
+    print(a,"x",i,"=",a*i)
+    i=i+1
+    
+    
