@@ -82,3 +82,13 @@ print('numbers = ',numbers)
 print(type(numbers))
 
 
+# Problem Statement 8
+# Add counter to an iterable and returns  the enumerate object using  enumerate() method.
+cities = ['mumbai', 'pune', 'delhi']
+enumerateCities = enumerate(cities)
+print(type(enumerateCities))
+# converting to list
+print(list(enumerateCities))
+# changing the default counter
+enumerateCities = enumerate(cities, 10)
+print(list(enumerateCities))
