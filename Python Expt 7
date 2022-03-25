@@ -92,3 +92,9 @@ print(list(enumerateCities))
 # changing the default counter
 enumerateCities = enumerate(cities, 10)
 print(list(enumerateCities))
+
+
+# Problem Statement 9
+# Run python expression (code) within the program using eval().
+x = 45
+print(eval('x + 45'))
