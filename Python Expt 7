@@ -98,3 +98,134 @@ print(list(enumerateCities))
 # Run python expression (code) within the program using eval().
 x = 45
 print(eval('x + 45'))
+
+
+
+# Problem Statement 11
+# Find the unique identity of any object and verify that each object 
+# has unique id.
+
+str1 = "Kurla"
+print(id(str1))
+  
+str2 = "Mumbai"
+print(id(str2))
+
+
+# Problem Statement 12
+#Find the largest  and smallest number in an iterable.
+
+num = [41, 23, 28, 18, 45, 10, 86]
+print('Maximum is:', max(num))
+num = [12, 23, 11, 76, 8]
+print('Minimum is:', min(num))
+
+
+
+# Problem Statement 13
+# Find the octal representation of a decimal, binary and hexadecimal number
+
+# decimal number
+print('oct(10) is:', oct(2))
+# binary number
+print('oct(0b101) is:', oct(0b101))
+# hexadecimal number
+print('oct(0XA) is:', oct(0XB))
+
+
+
+
+# Problem Statement 14
+#For a given string, tuple, range and list  reverse the sequence.
+
+# for string
+seqString = 'Pranjali'
+print(list(reversed(seqString)))
+
+# for tuple
+seqTuple = ('P', 'r', 'a', 'n', 'j', 'a', 'l' , 'i')
+print(list(reversed(seqTuple)))
+
+# for range
+seqRange = range(4 , 9)
+print(list(reversed(seqRange)))
+
+# for list
+seqList = [11, 22, 33, 44, 55]
+print(list(reversed(seqList)))
+
+
+# Problem Statement 15
+# Find the sum of a given sequence.
+
+numbers = [19, 8, 2, -3]
+# start parameter is not provided
+numbersSum = sum(numbers)
+print(numbersSum)
+# start = 10
+numbersSum = sum(numbers, 5)
+print(numbersSum)
+
+
+# Probelem Statement 16
+# Implement a code to show recursion function.
+def recur_factorial(n):
+    if n == 1:  
+       return n     
+    else:
+        return n*recur_factorial(n-1)  
+# taking input from the user  
+num = int(input("Enter a number: "))  
+# checking is the number is negative  
+if num < 0:
+    print("Sorry, factorial does not exist for negative numbers")  
+elif num == 0:
+    print("The factorial of 0 is 1")  
+else:  
+   print("The factorial of",num,"is",recur_factorial(num))  
+   
+   
+ # Probelm Statement 17
+# Implement a code to show lamba function.
+
+# Program to show the use of lambda functions
+double = lambda x: x * 3
+print(double(4))
+
+
+# Probelm Statement 18
+# Write a python code for simple calculator application
+
+# Program make a simple calculator that can add, subtract, multiply and divide using functions
+# This function adds two numbers
+def add(x, y): 
+    return x + y
+# This function subtracts two numbers
+def subtract(x, y): 
+    return x - y
+# This function multiplies two numbers
+def multiply(x, y):
+    return x * y
+# This function divides two numbers
+def divide(x, y):
+    return x / y
+print("Select operation.")
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
+# Take input from the user
+choice = input("Enter choice(1/2/3/4):")
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+if choice == '1':
+    print(num1,"+",num2,"=", add(num1,num2))
+elif choice == '2':
+    print(num1,"-",num2,"=", subtract(num1,num2))
+elif choice == '3':
+    print(num1,"*",num2,"=", multiply(num1,num2))
+elif choice == '4':
+    print(num1,"/",num2,"=", divide(num1,num2))
+else:
+    print("Invalid input")
+
